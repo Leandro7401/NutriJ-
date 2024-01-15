@@ -1,0 +1,889 @@
+
+
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#topo-fixo {
+    position: sticky;
+    top: 0;
+    left: 0;
+    min-width: 320px;
+    max-width: 100%;
+    background-color: white;
+    background-image: url(imagem/fundo.png);
+    background-repeat: repeat-x;
+
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: none;
+
+}
+
+#menu ul {
+    display: flex;
+}
+
+#menu li {
+    display: inline-block;
+    background-color: #C8E671;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+    font-family: 'Concert One', sans-serif;
+    border-radius: 20px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+
+
+}
+
+.login {
+    text-decoration: none;
+    color: white;
+}
+
+.loginb {
+    text-decoration: none;
+    color: black;
+
+}
+
+#menu li:hover {
+    background-color: hsla(64, 69%, 82%, 0.896);
+}
+
+#logo {
+    align-items: center;
+    margin: 20px auto;
+    text-align: center;
+
+
+}
+
+/*  fontes
+font-family: 'Concert One', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Lemon', serif;*/
+div#corpo {
+    background-image: url('imagem/Principal.png');
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.principal {
+    margin: 0px;
+    width: 100%;
+
+}
+
+.inform {
+    margin: 2px 20px;
+}
+
+#text {
+    display: flex;
+    justify-content: center;
+
+}
+
+.texto {
+
+    font-size: 25px;
+    margin: 10px;
+
+}
+
+.texto h1 {
+    font-size: 100%;
+    font-family: 'Concert One', sans-serif;
+
+}
+
+.texto p {
+    display: flex;
+    font-family: 'Concert One', sans-serif;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.texto img {
+    height: 64px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.area {
+    background-color: #cbb1fd;
+    margin: 20px 15px;
+    box-shadow: 5px 5px 10px #6c3dcab9;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+#verificado {
+    font-family: 'Concert One', sans-serif;
+    color: #6c3dca;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.ver {
+    display: flex;
+    margin: 2px 20px;
+}
+
+#botao {
+    display: flex;
+    justify-content: center;
+}
+
+#botao li {
+    background-color: #C8E671;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+    font-family: 'Concert One', sans-serif;
+    border-radius: 20px;
+    font-size: 25px;
+    color: white;
+    justify-content: center;
+
+
+}
+
+/* TABELA*/
+
+#preco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+
+
+}
+
+#c1 {
+    display: flex;
+    margin: 0px;
+
+}
+
+#c2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+#valor {
+    display: flex;
+    height: 100px;
+    width: 300px;
+    max-width: 300px;
+    max-height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#valor2 {
+    display: flex;
+    height: 50px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#valor p {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.redondo {
+    border-radius: 20px 0px 0px 0px;
+
+    border: 1px solid #c3c3c3;
+
+    border-right: none;
+}
+
+.redondo2 {
+    border-radius: 20px 20px 0px 0px;
+    border: 1px solid #c3c3c3;
+
+}
+
+.redondo3 {
+    border-radius: 20px 20px 0px 0px;
+    background-color: #bb99ffd8;
+
+}
+
+.esq {
+    border: 1px solid #c3c3c3;
+    border-right: none;
+
+}
+
+.meio {
+    border: 1px solid #c3c3c3;
+    border-right: none;
+
+}
+
+.dir {
+    border: 1px solid #c3c3c3;
+    border-right: none;
+    background-color: #bb99ff83;
+}
+
+.esqf {
+    border-radius: 0px 0px 0px 20px;
+    border: 1px solid #c3c3c3;
+    border-right: none;
+}
+
+.dirf {
+    border-radius: 0px 0px 20px 0px;
+    border: 1px solid #c3c3c3;
+    border-left-color: #bb99ff83;
+    background-color: #bb99ff83;
+
+}
+
+/*Comandos */
+
+.baixo {
+    border-bottom: 1px solid black;
+}
+
+.escrita {
+    font-family: 'Anton', sans-serif;
+}
+
+.valor {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 26px;
+}
+
+.letras {
+    font-family: 'Acme', sans-serif;
+    font-size: 23px;
+}
+
+.titulo {
+    font-family: 'Acme', sans-serif;
+    font-size: 23px;
+    color: rgb(1, 12, 94);
+}
+
+#imgmot {
+    float: right;
+
+}
+
+#info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+
+#infos {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    justify-content: space-around;
+}
+
+.in {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    width: 33%;
+
+}
+
+.titulo2 {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+}
+
+.titulo2 h1 {
+    color: rgb(102, 16, 121);
+}
+
+.titulo2 h1 {
+    color: rgb(102, 16, 121);
+
+}
+
+#motivos {
+    display: flex;
+    background-color: #38383803;
+    width: 100;
+    height: 900px;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.imgmotivo {
+    float: right;
+    width: 100%;
+
+}
+
+.tmotivo {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    margin: 0px;
+
+
+}
+
+.tmotivo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 66.3333%;
+
+}
+
+.tmotivo3 {
+    width: 33.3333%;
+    height: 100%;
+    background-image: url(imagem/IMG.MOTIVO.png);
+    background-repeat: no-repeat;
+
+}
+
+.hid {
+    visibility: hidden;
+}
+
+.cui {
+    display: flex;
+    align-items: center;
+}
+
+.cui p {
+    margin-left: 20px;
+}
+
+.cuiimg {
+    height: 100%;
+}
+
+#assina {
+    border: none;
+    color: black;
+    padding: 15px 15%;
+    text-align: center;
+    display: inline;
+    background-color: #bfff59;
+    border-radius: 1000px;
+    margin-top: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+#assina:hover {
+    background-color: #e1ffb4;
+    transition: 1s;
+}
+
+#coment {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
+
+}
+
+#comentario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 370px;
+    background-color: #c3c3c322;
+    border-radius: 25px;
+    margin-left: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.232);
+
+}
+
+.coments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 30px 5px 30px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+#feed {
+    text-align: center;
+    font-size: 30px;
+}
+
+.estrela {
+    width: 200px;
+    height: 40px;
+}
+
+.cletras {
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+}
+
+.cletras h1 {
+    font-family: 'Acme', sans-serif;
+    font-size: 27px;
+    margin: 10px 0px 0px 0px;
+
+}
+
+.ccep {
+    font-family: 'Acme', sans-serif;
+    font-size: 15px;
+}
+
+#baseparc {
+    display: flex;
+    background-color: #c3c3c3;
+    height: 600px;
+    margin: 30px 0px;
+
+}
+
+#parceriat {
+    background-color: #c3c3c333;
+    height: 500px;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex;
+}
+
+#parceria {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.par {
+    height: 100px;
+    width: 600px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+#parR {
+    background-image: url(imagem/DrogaR.parc.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#parS {
+    background-image: url(imagem/DrogaS.parc.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#parN {
+    background-image: url(imagem/DrogaN.parc.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.basetxt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 66.3333%;
+    justify-content: center;
+}
+
+.baseparc {
+    display: flex;
+    flex-direction: column;
+    width: 33.3333%;
+    justify-content: center;
+}
+
+#txtpac {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+}
+
+#Duvidas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.faq-list {
+    list-style: none;
+    padding: 0;
+    width: 70%;
+    /* Ajuste conforme necessário */
+
+}
+
+.faq-item {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.faq-question {
+    padding: 10px;
+
+    border-bottom: 2px solid rgba(127, 127, 127, 0.55);
+    height: 50px;
+}
+
+.faq-question:hover {
+
+    background-color: rgba(182, 182, 182, 0.059);
+    border-color: #4e328183;
+    transition: 1s;
+
+}
+
+.faq-answer {
+    visibility: hidden;
+    height: 0;
+    max-height: 0;
+    /* transition: height 0.25s ease-in; */
+}
+
+.expandido {
+    visibility: visible;
+    transition: height 0.35s ease-out;
+    height: 50px;
+    max-height: 100px;
+
+}
+
+
+#duvidatxt {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    color: rgb(1, 12, 94);
+    text-align: center;
+}
+
+.duvidaimg {
+
+    width: 50px;
+    height: 50px;
+}
+
+.tituloduv {
+    font-family: 'Acme', sans-serif;
+    font-size: 40px;
+    color: rgb(53, 54, 60);
+}
+
+#respostatxt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#rodape {
+    display: flex;
+    height: 100px;
+    background-color: rgba(0, 11, 97, 0.773);
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.aba__verificado {
+    background-color: #f5f5f5;
+}
+
+@media screen and (max-width: 768px) {
+    div#corpo {
+        background-image: url('imagem/fundo.mobilepe.png');
+        height: 500px;
+    }
+
+    #text {
+        flex-direction: column;
+    }
+
+    .inform {
+        display: block;
+    }
+
+    .area {
+        display: block;
+    }
+
+    .tabela {
+        width: 90vw;
+        font-size: 20px;
+
+    }
+
+    #valor {
+        padding: 60px 0px;
+    }
+
+    #verificado {
+        flex-direction: column;
+        width: 100%;
+        font-size: 100%;
+        text-align: center;
+        background-color: none;
+    }
+
+    .aba__verificado {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+
+    }
+
+    .ver {
+        align-items: center;
+        border-bottom: 1px solid #6c3dca55;
+    }
+
+    #preco {
+        text-align: center;
+    }
+
+    #info {
+        text-align: center;
+        padding: 30px 0px;
+    }
+
+    #info p {
+        padding-top: 10px;
+    }
+
+    #infos {
+        margin: 0px;
+        font-size: 30px;
+        padding-top: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #coment {
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    #motivos {
+        height: 3000px;
+
+    }
+
+    .tmotivo {
+        flex-direction: column;
+        text-align: center;
+        font-size: 19px;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .cuiimg {
+        width: 50px;
+        height: 50px;
+        display: flex;
+    }
+
+    .titulo {
+        padding: 10px;
+    }
+
+    .tmotivo3 {
+        width: 90%;
+        background-image: url('imagem/img.motivomobile2.png');
+        background-size: cover;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.491);
+        border-radius: 30px;
+
+
+
+    }
+
+    #comentario {
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    #parceriat {
+        height: 700px;
+        flex-direction: column;
+    }
+
+    .basetxt {
+        width: 100%;
+    }
+
+    #txtpac {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .baseparc {
+        width: 100%;
+    }
+
+    .par {
+        margin: 0;
+    }
+
+    #parR {
+        width: 95%;
+        background-image: url('imagem/DrogaR.mobile.png');
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    #parS {
+        width: 95%;
+        background-image: url('imagem/DrogaS.mobile.png');
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    #parN {
+        width: 95%;
+        background-image: url('imagem/DrogaN.mobile.png');
+        margin: auto;
+        margin-top: 10px;
+    }
+
+
+    .faq-question {
+        height: 70px;
+    }
+
+    .faq-list p {
+        margin: 0;
+        align-items: center;
+    }
+
+    .faq-list {
+        width: 90%;
+    }
+
+    .expandido {
+        height: 253px;
+        max-height: 300px;
+    }
+
+    #logo {
+        margin: auto;
+    }
+
+    #assine {
+        height: 34px;
+        margin-right: 0px;
+
+    }
+
+    #menu li {
+        margin-right: 10px;
+        font-size: 100%;
+        text-transform: uppercase;
+    }
+
+    #rodape {
+        height: 22%;
+    }
+
+    .cui {
+        padding: 30px 0px;
+    }
+    footer{
+        margin-top: 55px;
+    }
+  
+    .coments{
+        padding: 30px;
+    }
+    .tituloduv{
+        padding: 30px;
+    }
+    .botao{
+        padding: 30px 0px;
+    }
+    #feed h1{
+        padding: 30px opx;
+    }
+
+    
+}
+
+/*
+font-family: 'Concert One', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Acme', sans-serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Bebas Neue', sans-serif;*/
